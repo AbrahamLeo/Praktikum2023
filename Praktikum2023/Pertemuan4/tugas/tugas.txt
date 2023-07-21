@@ -1,0 +1,44 @@
+﻿﻿
+
+1. Buatlah program PHP untuk menambah data ke dalam database melalui sebuah form dengan metode POST. Jika diketahui :
+a. Buatlah database dengan nama “barang",
+b. Kemudian buat tabel dengan nama "barang" dan strukturnya sebagai
+berikut:
+Field
+Id barang
+Type int(11)
+Null
+Key
+Default Extra
+ΝΟ
+PRI
+NULL
+nama_barang | varchar(25)
+NO
+NULL
+keterangan
+Text
+YES
+NULL
+c. Tabel dibuat dengan perintah / skrip query untuk pembentukan tabel
+seperti berikut:
+CREATE TABLE barang (
+id_barang INT(11) NOT NULL PRIMARY KEY,
+nama_barang VARCHAR(25) NOT NULL,
+keterangan TEXT NULL
+);
+d. Buat skrip untuk menangani penambahan data ke dalam database dalam bentuk form, gunakan metode POST. Simpan skrip ini dengan nama "form.php"
+e. Buat skrip "koneksi.php"
+f. Kemudian buat skrip untuk menanggani proses penambahan data ke dalam database dan simpan skrip ini dengan nama "proses.php"
+
+2. Buatlah skrip dengan menggunakan perulangan while untuk menampilkan semua data pada array berikut ini :
+$makanan[1] = "Lumpia"; $makanan[4] = "Bakpia";
+$makanan[7] = "Dodol Garut";
+$makanan[8] = "Siomay";
+$makanan[9] = "Soto Makassar";
+Simpan skrip ini dengan nama "tampil.php"
+
+3. Buatlah sebuah skrip fungsi yang digunakan untuk menghitung luas 1/2 lingkaran jika diketahui :
+a. Diameter = 10 CM
+b. Rumus luas lingkaran = π * 12
+Simpan skrip fungsi tersebut dengan nama "luas.php"
